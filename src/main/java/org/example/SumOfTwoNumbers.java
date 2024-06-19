@@ -2,11 +2,8 @@ package org.example;
 
 public class SumOfTwoNumbers {
 
-    public int sumOfTwoNumbers() {
+    public int sumOfTwoNumbers(int a , int b) {
 
-        int numberOne = 3;
-        int numberTwo = 2;
-
-        return numberOne+numberTwo;
+        return a+b;
     }
 }

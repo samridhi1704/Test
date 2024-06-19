@@ -9,13 +9,12 @@ public class SumOfTwoNumbersTest {
     @Test
     void shouldReturnSumFiveIfTheNumbersAreThreeAndTwo() {
 
-        int numberOne =3;
-        int numberTwo =2;
+
         int expectedValue=5;
 
         SumOfTwoNumbers sum = new SumOfTwoNumbers();
 
-        int actualValue = sum.sumOfTwoNumbers();
+        int actualValue = sum.sumOfTwoNumbers(3,2);
 
         assertEquals(expectedValue,actualValue);
 
