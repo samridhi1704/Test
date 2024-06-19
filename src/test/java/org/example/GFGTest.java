@@ -56,7 +56,7 @@ public class GFGTest {
     void shouldReturnIndexOfTheKeyElementWhenArrayANdKeyISPassed() {
 
         GFG binarySearch = new GFG();
-        int expectedValue = 1;
+        int expectedValue = 3;
         int actualValue = binarySearch.binarySearch();
         assertEquals(expectedValue,actualValue);
     }
@@ -70,4 +70,6 @@ public class GFGTest {
         int actualValue = comparee.compareArray();
         assertEquals(expectedValue,actualValue);
     }
+
+
 }

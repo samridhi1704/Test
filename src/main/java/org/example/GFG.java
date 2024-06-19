@@ -7,6 +7,8 @@ import static java.lang.String.valueOf;
 public class GFG {
 
 
+
+
     public String print(){
 
         String s = "Hello";
@@ -47,7 +49,7 @@ public class GFG {
 
     public int binarySearch()
     {
-        int newArray[] = {10,30,23};
+        int newArray[] = {10,20,30,23};
         Arrays.sort(newArray);
         int key = 30;
        int p= Arrays.binarySearch(newArray,key); //get the index position
@@ -62,4 +64,7 @@ public class GFG {
         return Arrays.compare(newArray1,newArray2);
 
     }
-}
+
+
+    }
+
