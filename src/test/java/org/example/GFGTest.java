@@ -13,7 +13,7 @@ public class GFGTest {
     void shouldPrintHeloWhenStringIsPassed(){
 
         GFG print = new GFG();
-        String expectedValue = "Hello";
+        String expectedValue = "Hello World";
         String actualValue = print.print();
 
         assertEquals(expectedValue , actualValue);
@@ -49,5 +49,25 @@ public class GFGTest {
         String expectedArray[] = s.enhancedforLoop();
         assertTrue(Arrays.equals(array,expectedArray));
 
+    }
+
+
+    @Test
+    void shouldReturnIndexOfTheKeyElementWhenArrayANdKeyISPassed() {
+
+        GFG binarySearch = new GFG();
+        int expectedValue = 1;
+        int actualValue = binarySearch.binarySearch();
+        assertEquals(expectedValue,actualValue);
+    }
+
+
+    @Test
+    void shouldReturnZeroIfTheTwoArraysAreEqual() {
+
+        GFG comparee = new GFG();
+        int expectedValue =0;
+        int actualValue = comparee.compareArray();
+        assertEquals(expectedValue,actualValue);
     }
 }

@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Arrays;
+
 import static java.lang.String.valueOf;
 
 public class GFG {
@@ -8,7 +10,9 @@ public class GFG {
     public String print(){
 
         String s = "Hello";
-        return s;
+//        String concat = s.concat(" World");
+//        return conact;
+        return s.concat(" World");
     }
 
     public int autoBoxing()
@@ -37,6 +41,25 @@ public class GFG {
 
         }
             return array;
+
+    }
+
+
+    public int binarySearch()
+    {
+        int newArray[] = {10,30,23};
+        Arrays.sort(newArray);
+        int key = 30;
+       int p= Arrays.binarySearch(newArray,key); //get the index position
+       return p;
+
+    }
+
+    public int compareArray()
+    {
+        int newArray1[] = {2,4,5};
+        int newArray2[] = {2,4,5};
+        return Arrays.compare(newArray1,newArray2);
 
     }
 }
