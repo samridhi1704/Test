@@ -1,6 +1,4 @@
-package org.example.exception;
-
-import org.example.GFG;
+package org.example;
 
 public class Oops {
 
