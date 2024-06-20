@@ -1,8 +1,17 @@
 package org.example;
 
-public class Bird extends Animal {
+import org.example.Behaviour.Fly;
+
+public class Bird  {
+
+    private final Fly fly;
+
+    public Bird() {
+        this.fly = new Fly();
+    }
 
     public String fly(){
-        return "Can Fly";
+        return fly.fly();
     }
+
 }
