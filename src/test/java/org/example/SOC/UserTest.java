@@ -9,9 +9,10 @@ class UserTest {
     @Test
     void shouldReturnNameAndEmail() {
 
-        User helo = new User("Sam" , "SAm@email.com");
+        User helo = new User("Sam" , "SAm@email.com" ,1);
         assertEquals("Sam" , helo.getName());
         assertEquals("SAm@email.com" , helo.getEmail());
+        assertEquals(1,helo.getId());
 
 
     }
