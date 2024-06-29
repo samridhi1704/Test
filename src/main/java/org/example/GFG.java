@@ -119,6 +119,10 @@ public class GFG {
         balance+=amount;
         return balance;
     }
+// User can deposit the amount without knowing how the balance is managed
+
+
+
 
 
     }
