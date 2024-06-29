@@ -7,7 +7,7 @@ import static java.lang.String.valueOf;
 public class GFG {
 
 
-
+    private int balance;
 
     public String print(){
 
@@ -63,6 +63,61 @@ public class GFG {
         int newArray2[] = {2,4,5};
         return Arrays.compare(newArray1,newArray2);
 
+    }
+
+    public void aa()
+    {
+        for(Integer i=0;i<=50;i++)
+            System.out.println(i);
+    }
+
+    public int noOfOnes()
+    {
+
+      int[] arr = new int[5];
+      arr[0] = 1;
+      arr[1] =0;
+      arr[2] =1;
+      arr[3] =0;
+      arr[4] =1;
+
+//      int no =0;
+//        int n = arr.length;
+//        int i=0;
+//      while( i < n )
+//      {
+//          if(arr[i] ==1)
+//              no++;
+//          i++;
+//      }
+
+        int no = 0;
+        int i = 0;
+        if (arr.length > 0) {
+            do {
+                if (arr[i] == 1) {
+                    no++;
+                }
+                i++;
+            } while (i < arr.length);
+        }
+
+
+
+//      for(int i=0;i<arr.length;i++)
+//      {
+//          if(arr[i]==1)
+//              no++;
+//      }
+      return no;
+
+    }
+
+// Encapsulation through public behaviour and private state
+    public int deposit(int amount)
+    {
+        balance+=amount;
+        return balance;
     }
 
 

@@ -6,4 +6,5 @@ public class SumOfTwoNumbers {
 
         return a+b;
     }
+
 }

@@ -9,6 +9,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class GFGTest {
 
+    private int[] array;
+
     @Test
     void shouldPrintHeloWhenStringIsPassed(){
 
@@ -71,5 +73,18 @@ public class GFGTest {
         assertEquals(expectedValue,actualValue);
     }
 
+    @Test
+    void shouldReturnThreeWhenArrayOfFiveIsPassed() {
 
+        GFG cc = new GFG();
+        assertEquals(3,cc.noOfOnes());
+    }
+
+
+    @Test
+    void shouldReturnBalanceWhenAmountIsPassed() {
+        GFG  ll = new GFG();
+        assertEquals(4,ll.deposit(4));
+
+    }
 }
