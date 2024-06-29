@@ -6,7 +6,7 @@ public class Calculator {
     // state
     private int result;
 
-    //command
+    //command // void method state changed
     public void add(int a , int b)
     {
         result+=a+b;
