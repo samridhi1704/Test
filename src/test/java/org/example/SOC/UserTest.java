@@ -10,8 +10,8 @@ class UserTest {
     void shouldReturnNameAndEmail() {
 
         User helo = new User("Sam" , "SAm@email.com");
-        assertEquals("Sam" , helo.name);
-        assertEquals("SAm@email.com" , helo.email);
+        assertEquals("Sam" , helo.getName());
+        assertEquals("SAm@email.com" , helo.getEmail());
 
 
     }

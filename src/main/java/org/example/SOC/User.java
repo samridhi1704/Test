@@ -2,8 +2,17 @@ package org.example.SOC;
 
 public class User {
 
-    public String name;
-    public String email;
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    private String email;
 
     public User(String name, String email) {
         this.name = name;
