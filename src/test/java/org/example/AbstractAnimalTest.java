@@ -9,6 +9,7 @@ public class AbstractAnimalTest {
     @Test
     void shouldReturnWoof() {
 
+        // AnimalAbstract animal = new AnimalAbstract();
         AnimalAbstract dogl = new AbstractAnimalDog();
         assertEquals("Woof" , dogl.sound());
 
