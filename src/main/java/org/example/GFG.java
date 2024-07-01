@@ -71,6 +71,18 @@ public class GFG {
             System.out.println(i);
     }
 
+
+    public int noOfOnesss(int[] arr) {
+        int no = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 1) {
+                no++;
+            }
+        }
+        return no;
+    }
+
+
     public int noOfOnes()
     {
 

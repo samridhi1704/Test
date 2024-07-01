@@ -87,4 +87,15 @@ public class GFGTest {
         assertEquals(4,ll.deposit(4));
 
     }
+
+    @Test
+    void shouldReturnTheNumberOfOnes() {
+        int arr[] = {1,2,1,3,1};
+        int expectedValue = 3;
+        GFG gfg = new GFG();
+        int actualValue = gfg.noOfOnesss(arr);
+        assertEquals(expectedValue,actualValue);
+
+
+    }
 }
